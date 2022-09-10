@@ -7,11 +7,15 @@
 */
 int main(void)
 {
+char c;
 int n;
-for (n = 0x0 ; n <= 0xf; n++)
+for (n = 0x0 ; n <= 0x9; n++)
 {
 putchar(48 + n);
-putchar(n);
+};
+for (c = 'a'; n <= 'f'; n++)
+{
+putchar(c);
 };
 putchar('\n');
 return (0);
