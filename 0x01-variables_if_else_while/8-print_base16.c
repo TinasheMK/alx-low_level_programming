@@ -11,6 +11,7 @@ int n;
 for (n = 0x0 ; n <= 0xf; n++)
 {
 putchar(48 + n);
+putchar(n);
 };
 putchar('\n');
 return (0);
