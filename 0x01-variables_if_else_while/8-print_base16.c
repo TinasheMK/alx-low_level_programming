@@ -12,6 +12,6 @@ for (n = 0x0 ; n <= 0xf; n++)
 {
 putchar(n);
 };
-printf('\n');
+putchar('\n');
 return (0);
 }
