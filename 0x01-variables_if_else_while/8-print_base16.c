@@ -10,7 +10,7 @@ int main(void)
 int n;
 for (n = 0x0 ; n <= 0xf; n++)
 {
-putchar(n);
+putchar(48 + n);
 };
 putchar('\n');
 return (0);
