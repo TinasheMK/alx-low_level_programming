@@ -13,7 +13,7 @@ for (n = 0x0 ; n <= 0x9; n++)
 {
 putchar(48 + n);
 };
-for (c = 'a'; n <= 'f'; n++)
+for (c = 'a'; c <= 'f'; c++)
 {
 putchar(c);
 };
