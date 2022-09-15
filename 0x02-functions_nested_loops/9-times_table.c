@@ -7,7 +7,7 @@
  * Return: num
  */
 
-void times_table(void)
+void times_table(int x)
 {
 	int n = 0;
 	int num;
