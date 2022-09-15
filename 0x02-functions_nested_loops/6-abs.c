@@ -1,5 +1,9 @@
+#include "main.h"
 /**
- * _abs - program desc follow by a new line
+ * _abs - this program prints laphabet follow by a new line
+ *
+ * @num: character value
+ *
  * Return: num
  */
 
