@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * _isalpha - this program prints find out if character is aletter
  *
