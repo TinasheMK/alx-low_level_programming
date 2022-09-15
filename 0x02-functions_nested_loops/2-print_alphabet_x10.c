@@ -9,7 +9,7 @@ char letter = 'a';
 int n = 1;
 while (n <= 10)
 {
-	while (letter<= 'z')
+	while (letter <= 'z')
 	{
 		write(1, &letter, 1);
 		letter++;
