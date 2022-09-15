@@ -1,5 +1,6 @@
 /**
- * _isalpha -alpha letter
+ * _isalpha- alpha letter
+ * Description: To prin alpha letters
  * Return: alpha or not
  */
 int _isalpha(int c)
