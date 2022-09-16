@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * _isupper - this function  identifies an uppercase letter
  *
@@ -8,5 +9,5 @@
  */
 int _isupper(int c)
 {
-	return (c >= 65 && c <= 90);
+return (isupper(c));
 }
