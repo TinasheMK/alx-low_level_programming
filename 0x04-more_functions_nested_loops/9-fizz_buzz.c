@@ -1,14 +1,12 @@
 #include <stdio.h>
 /**
- * main - fizz buzz
- *
+ * main - number buss fizz
  * Return: 0
  */
 
 int main(void)
 {
 	int n;
-
 	for (n = 1; n <= 100; n++)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))

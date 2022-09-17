@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * print_numbers - this function multiplies two values
- *
+ * print_numbers - tmultiplies two values
  */
 void print_numbers(void)
 {
 	int n;
-
 	for (n = 0; n <= 9; n++)
 	{
 		_putchar('0' + n);

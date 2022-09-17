@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_square - this function multiplies two values
- *
+ * print_square - tvalues
  * @size: value
  */
 

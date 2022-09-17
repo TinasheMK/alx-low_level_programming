@@ -9,7 +9,6 @@ void print_diagonal(int n)
 {
 	int spaces = 0;
 	int lines = 0;
-
 	if (n > 0)
 	{
 		while (lines < n)
