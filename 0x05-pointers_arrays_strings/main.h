@@ -21,3 +21,13 @@ void swap_int(int *a, int *b);
  * Return: teh length
  */
 int _strlen(char *s);
+
+/**
+ * _puts -rints a sreing
+ * @str: the string to print
+ *
+ * Return: void
+ */
+void _puts(char *str);
+
+void print_rev(char *s);
