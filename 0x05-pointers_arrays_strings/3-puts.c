@@ -1,20 +1,17 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
+
 /**
- * _puts - print in reverse
- * @s: string to print
- *
+ * _puts - to print a string
+ * @str: the stringing
  * Return: void
  */
+
 void _puts(char *str)
 {
-	int i = strlen(str);
-	int n = 0;
-	while (n < i)
+	while (*str != '\0')
 	{
-		n++;
-		putchar(str[i]);
+		_putchar(*str);
+		str++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
