@@ -10,10 +10,7 @@ void puts2(char *str)
 {
 	int i, j = 0;
 
-	while (str[i] != '\0')
-	{
-		i++;
-	}
+	i = sizeof *str;
 	while (j < i)
 	{
 		putchar(str[j]);
