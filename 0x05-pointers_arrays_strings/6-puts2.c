@@ -14,6 +14,7 @@ while (*str != '\0') {
 i++;
 str++;
 }
+putchar(i);
 	while (j < i)
 	{
 		putchar(str[j]);
