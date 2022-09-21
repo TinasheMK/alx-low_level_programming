@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * puts2 - one of two chars printed
@@ -9,14 +10,15 @@ void puts2(char *str)
 {
 	int i, j = 0;
 
-	while (str[i] != '\0')
-	{
-		i++;
-	}
+while (*str != '\0') {
+i++;
+str++;
+}
+
 	while (j < i)
 	{
-		_putchar(str[j]);
+		putchar(str[j]);
 		j = j + 2;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
