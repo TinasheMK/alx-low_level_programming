@@ -2,8 +2,9 @@
 #include <string.h>
 /**
  * *_strncat - concat n
- * @*dest: str
- * @*src: var
+ * @dest: str
+ * @src: var
+ * @n: number of cat
  *
  * Return: pointer
  */
